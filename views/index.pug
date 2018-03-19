@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h1 Messenger Demo
+  p Welcome to #{title}
+
+  div
+    p The "Send to Messenger" plugin will trigger an authentication callback to your webhook.
+
+    div(
+      class="fb-send-to-messenger" 
+      messenger_app_id='281199372312498'
+      page_id='1588567584516714'
+      data-ref="PASS_THROUGH_PARAM" 
+      color="blue" 
+      size="standard"
+    )
+
+  div
+    p The "Message Us" plugin takes the user directly to Messenger and into a thread with your Page.
+
+    div(
+      class="fb-messengermessageus"
+      messenger_app_id='281199372312498'
+      page_id='1588567584516714'
+      color="blue"
+      size="standard"
+    )

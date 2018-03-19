@@ -1,0 +1,11 @@
+{
+    "appSecret": "",
+    "pageAccessToken":"",
+    "validationToken": "",
+    "serverURL": "",
+    "conversation_username": "",
+    "conversation_password": "",
+    "conversation_workspace_id": "",
+    "redis_url": "",
+    "zendesk_key": ""
+}

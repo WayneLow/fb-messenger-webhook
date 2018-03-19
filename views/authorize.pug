@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 Login
+
+  div
+    | This should be a login page. If the user successfully logs, they should
+    | be redirect to this link: 
+    a(href="#{redirectURISuccess}") Complete Account Link
+  
+  div
+    Account linking token: #{accountLinkingToken}
+
+  div
+    Redirect URI: #{redirectURI}
+
+  div
+    Redirect URI Successful: #{redirectURISuccess}

@@ -1,0 +1,7 @@
+---
+applications:
+- name:    microlink-maxis-chatbot-v1
+  host:    microlink-maxis-chatbot-v1
+  memory:  128M
+  services:
+    - Conversation-es
